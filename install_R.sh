@@ -12,3 +12,6 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-
 sudo apt install build-essential -y
 sudo apt install r-base-dev -y
 
+# Check install
+
+R --version
