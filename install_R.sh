@@ -1,9 +1,8 @@
-sudo apt-get update 
+sudo apt update 
 
 # Install dependencies
 
-sudo apt install dirmngr gnupg gnupg-agent apt-transport-https ca-certificates software-properties-common -y
-sudo apt install libcurl4-openssl-dev libssl-dev libxml2-dev build-essential -y
+sudo apt-get install dirmngr gnupg apt-transport-https ca-certificates software-properties-common -y
 
 # Install R
 
@@ -12,6 +11,9 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-
 
 sudo apt install r-base -y
 sudo apt install r-base-dev -y
+
+sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev build-essential -y
+sudo apt-get install libxml2-dev libcurl4-openssl-dev libssl-dev libv8-dev -y
 
 # Check install
 
