@@ -1,3 +1,7 @@
+sudo apt install git -y
+
+git --version
+
 # Setting username
 
 git config --global user.name ianaraujo
