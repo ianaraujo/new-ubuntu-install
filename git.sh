@@ -17,5 +17,3 @@ echo "Setting git email 'ianaraujo15@gmail.com': OK"
 # ...
 
 git config --global color.ui true
-
-
